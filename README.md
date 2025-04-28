@@ -4,3 +4,9 @@
 * Defined a view template to display the home page;
 * Wrote a simple test class to verify the functionality of the home page controller.
 * Successfully ran the project
+
+## Chapter 2:
+* Created domain models
+* Created Views
+* Created Controllers 
+* Added validation
