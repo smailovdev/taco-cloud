@@ -21,3 +21,10 @@
 * Added script files scheme.sql and data.sql (executed at startup)
 * Created methods for saving data; saving complex data this way requires a lot of code
 * Used repositories in controllers  
+
+## Chapter 3.2
+* Replaced `spring-boot-starter-jdbc` with `spring-boot-starter-data-jdbc`.
+* Added `@Id` and `@Table` annotations to domain classes.
+* Refactored repository interfaces by extending `CrudRepository<>`.
+* Removed interface implementations since Spring takes care of it automatically.
+* `CommandLineRunner` and `ApplicationRunner`.
