@@ -26,5 +26,5 @@ public class Taco {
     @NotNull
     @Size(min=1, message="You must choose at least 1 ingredient")
     @ManyToMany()
-    private List<IngredientRef> ingredients = new ArrayList<>();
+    private List<Ingredient> ingredients = new ArrayList<>();
 }
