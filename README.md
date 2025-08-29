@@ -46,3 +46,6 @@
 * Authentication and SecurityConfig have been added
 * Login and registration pages implemented
 * Linked the User table with the Order table
+
+### Chapter 7
+* Created REST API and client via RestTemplate
